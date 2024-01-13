@@ -2,7 +2,7 @@
 A command line Code Search tool in Rust
 # Code Search Tool in Rust
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 
 This Rust program is a simple code search tool designed to find a specified pattern within the content of files in a given directory. It provides a quick way to identify and display lines in those files that contain the specified search pattern.
 
@@ -32,7 +32,7 @@ cargo build
 Run the Code Search Tool
 Execute the tool by providing the directory path and the search pattern as command-line arguments:
 
-'''bash
+bash
 ./target/debug/CodeSeeker /path/to/your/codebase "your_search_pattern"
 
 ###Customization
